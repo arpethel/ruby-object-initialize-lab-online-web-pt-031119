@@ -3,11 +3,11 @@ class Dog
     @breed = breed
     # @breed = "Mutt" if breed == nil
     @name = name
-    if @breed == nil
-      @breed = "Mutt"
-    else
-      @breed = breed
-    end
+    # if @breed == nil
+    #   @breed = "Mutt"
+    # else
+    #   @breed = breed
+    # end
   end
   # def initialize(name)
   #   @name = name
